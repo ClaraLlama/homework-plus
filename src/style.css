@@ -1,0 +1,140 @@
+h1 {
+  font-weight: 700;
+}
+
+img {
+  margin: 0 auto;
+  max-width: 85%;
+  padding-bottom: 15px;
+}
+
+input {
+  width: 70%;
+  border-radius: 5px;
+  box-shadow: 4px 4px 3px rgba(180, 179, 179, 0.3);
+}
+
+.bodyContent {
+  display: block;
+  margin: auto;
+  max-width: 60%;
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
+  border-radius: 20px;
+  margin-top: 25px;
+  text-align: center;
+  padding: 20px 10px;
+  box-shadow: 4px 4px 3px rgba(180, 179, 179, 0.3);
+}
+
+.bottomOfWeeklyTable {
+  padding-bottom: 7px;
+}
+
+.city {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.conditionsList {
+  text-align: left;
+  list-style-type: none;
+  font-size: 17px;
+  line-height: 2;
+}
+
+.container {
+  font-family: "Kalam", cursive;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.currentLocation {
+  color: rgb(106, 109, 116);
+  background-color: rgb(255, 255, 255);
+  border: 1px transparent;
+  border-radius: 5px;
+  margin: 20px auto;
+  box-shadow: 4px 4px 3px rgba(180, 179, 179, 0.3);
+  transition: all 150ms ease-in-out;
+  padding: 6px 13px 5px;
+  text-align: center;
+  border: 1px solid rgb(106, 109, 116);
+}
+
+.currentLocation:hover {
+  cursor: pointer;
+  background-color: rgb(106, 109, 116);
+  color: white;
+}
+
+.currentTemp {
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.date {
+  font-size: small;
+}
+
+.days {
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.highsAndLows {
+  height: auto;
+}
+
+.images {
+  height: 60%;
+}
+
+.search {
+  padding: 15px 0;
+}
+
+.searchButton {
+  color: rgb(106, 109, 116);
+  background-color: rgb(255, 255, 255);
+  border: 1px transparent;
+  border-radius: 5px;
+  margin: 20px auto;
+  box-shadow: 4px 4px 3px rgba(180, 179, 179, 0.3);
+  transition: all 150ms ease-in-out;
+  padding: 6px 10px 5px;
+  border: 1px solid rgb(106, 109, 116);
+  text-align: center;
+}
+
+.searchButton:hover {
+  cursor: pointer;
+  background-color: rgb(106, 109, 116);
+  color: white;
+}
+
+.todaysLow {
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+.weatherCondition {
+  padding-bottom: 12px;
+}
+
+.weeklyImages {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.weeklyWeather {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  text-align: center;
+  margin: 15px;
+  box-shadow: 4px 4px 3px rgba(180, 179, 179, 0.3);
+}
